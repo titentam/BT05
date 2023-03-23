@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="TamDB">
+  <DataContextMoniker Name="/TamDBDataContext" />
+  <nestedChildShapes>
+    <classShape Id="3a22051b-4b18-4eb4-9e7e-04e5d418d4e2" absoluteBounds="2.125, 0.75, 2, 2.5401025390625">
+      <DataClassMoniker Name="/TamDBDataContext/SV" />
+      <nestedChildShapes>
+        <elementListCompartment Id="7649edcb-cdc7-4109-bdaf-02f899c805db" absoluteBounds="2.1399999999999997, 1.21, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

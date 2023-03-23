@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="BT04" Class="TamDBDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=MSI\SQLEXPRESS01;Initial Catalog=BT04;Integrated Security=True" SettingsObjectName="BT05.Properties.Settings" SettingsPropertyName="BT04ConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.SV" Member="SVs">
+    <Type Name="SV">
+      <Column Name="ID" Type="System.String" DbType="Char(8) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Class" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Gender" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="Dob" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="GPA" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="Picture" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="School_report" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="CCCD" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>
